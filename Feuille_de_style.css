@@ -1,5 +1,5 @@
 body {
-		background-image : url(image/background.jpg);
+		background-image : url(background.jpg);
 		
      } 	
 
@@ -86,7 +86,7 @@ th {
 }
 
 #banniere{
-	background-image: url("image/banniere.jpg");
+	background-image: url("banniere.jpg");
 	height: 215px;	/*Hauteur image*/
 	width : 70%;	/*largeur image*/
 	margin : auto;
