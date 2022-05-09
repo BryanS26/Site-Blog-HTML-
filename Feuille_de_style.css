@@ -1,0 +1,132 @@
+body {
+		background-image : url(image/background.jpg);
+		
+     } 	
+
+
+h1 {
+	color:black; 
+	font-size: 40px; /*Mettre le titre 1 en rouge en taille 25*/
+	text-shadow: 3px black;
+    }
+h2 {
+	color:blue; 
+	font-size: 20px; /*Mettre le titre 2 en bleu en taille 20*/
+	} 
+
+#nav  {
+	padding: 0; margin: 0;/*espace entre la marge du haut et le menu*/
+	text-align: center; /*centre le texte*/
+}	
+	
+
+
+#nav li {
+	display : inline;
+	list-style : non; /* nécessaire pour ie7*/
+}	
+	
+
+#nav a {
+		display: inline-block;
+		margin : 0 40 3 4px;
+		background: black; /*Couleur de fond*/
+		width: 120px;
+		text-decoration: none; /*pas d'héritage avec effet souligné*/
+		color: white; /*couleur du texte*/
+		height: 30px; /*hauteur*/
+		line-height: 3 50 3 50px; /*interligne*/
+		padding: 0 50px; /*marges interieur*/
+		font-family: open sans; /*police d'ecriture*/
+		font-size: 28px; /*taille du texte*/
+		border-radius: 20px;
+		border : 3px solid #000000;
+		
+}
+
+#nav a:hover {background: #006699;} /*colorer le lien quand la souris passe dessus*/
+
+img{
+	width: 35%;	/*Largeur on peut egalement metre la taille en pixel*/
+	height:35%;	/*Hauteur*/
+}	
+
+table{
+    border: 2px;
+    border-collapse: collapse;
+    text-align: center; /* centre tous les textes a l'intérieur du tableau */
+    width: 95%; /* Le tableau prend 95% de la page */
+    margin: auto; /* centre le tableau */
+    }
+    
+tr {
+    background-color: white;
+    }
+    
+td { 
+    border : 2px solid black; 
+    padding: 5px; /* On aggrandi la taille des cellules pour pas que ça fasse trop compressé */
+    margin: 5px; /* on décolle les bords de 5px */
+    }
+	
+	
+th { 
+    border : 2px black;
+	background-color: #black;
+    height:45px; 
+    border: ridge 1.5px; 
+	color: #EFEFEF
+    }
+
+.entete { 
+    background-color: #000; /*couleur fond */
+    color: #FFF;			/*couleur texte*/
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+#banniere{
+	background-image: url("image/banniere.jpg");
+	height: 215px;	/*Hauteur image*/
+	width : 70%;	/*largeur image*/
+	margin : auto;
+	border-radius: 30px; /*arrondir l'image*/
+	border : 3px solid #000000; /*mettre un contour a l'image*/
+	box-shadow :8px 8px 10px 0 rgba(0,0,0,0.5);
+	margin-bottom:10px; /*mettre une marge en haut et en bas*/
+	
+}
+
+caption{ /*texte au dessus du tableau*/
+	font-size: 30px;
+	color: blue;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+p{
+	text-align: justify; /*justifier tout les paragraphes*/
+}
+
+#interv{
+		background-color: yellow;
+}
+
+#tel{
+	background-color: red;
+}
+
+footer {
+	background: black;
+	width:100%;
+	justify-content: center; /*Centrer horizontalement*/
+	display : flex;
+	padding: 30px;
+	margin-left: auto; /*pour centrer notre body ou autre block - marge "auto" et indiquer un width*/
+	margin-right: auto;
+}
+	
+#p1 {
+		font-size: 28px;
+		color: white;
+	}	
